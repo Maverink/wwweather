@@ -1,11 +1,3 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-}
-
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -19,4 +11,24 @@
 
 .App-link {
   color: #09d3ac;
+}
+
+.weather-container {
+  max-height: 20%;
+}
+
+.weather-container > * {
+  display: inline-block;
+  text-align: left;
+}
+
+.weather-container p {
+  margin: 5px;
+}
+.viewer-cesium {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 20%;
 }
